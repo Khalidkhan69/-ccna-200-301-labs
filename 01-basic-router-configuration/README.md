@@ -18,9 +18,12 @@ Configure the basic settings of a Cisco router using the Cisco IOS command-line 
 ```cisco
 show running-config
 show ip interface brief
+```
 
 ## Lab File
-'lab01-basic-router-configuration.pkt'
+
+- `lab01-basic-router-configuration.pkt`
 
 ## Tool
+
 Cisco Packet Tracer
