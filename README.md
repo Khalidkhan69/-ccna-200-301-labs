@@ -11,6 +11,8 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 03 | [Telnet Configuration](./03-telnet-configuration/) | Remote CLI access using VTY lines and Telnet |
 | 04 | [SSH Configuration](./04-ssh-configuration/) | Secure remote administration using SSH and local authentication |
 | 05 | [Configuration Backup and Restore](./05-backup-delete-reinstall-ios-config/) | Back up, delete and restore a Cisco IOS configuration using TFTP |
+| 06 | [Static Routing](./06-static-routing/) | Configure manually defined routes between remote networks |
+| 07 | [Floating Static Routing](./07-floating-static-routing/) | Configure a backup route using a higher administrative distance |
 
 ## Skills Practiced
 
@@ -22,6 +24,9 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Telnet and SSH remote access
 - Local user authentication
 - Configuration backup and recovery using TFTP
+- Static routing and next-hop selection
+- Administrative distance
+- Route redundancy and failover
 - Network connectivity testing
 - Configuration verification and troubleshooting
 
@@ -36,10 +41,10 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 
 This repository will be updated as I complete additional CCNA labs, including:
 
+- Default routing
+- RIP and OSPF
 - VLANs and trunking
 - Inter-VLAN routing
-- Static, default and floating static routes
-- OSPF
 - Access control lists
 - Network address translation
 
