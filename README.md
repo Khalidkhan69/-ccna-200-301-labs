@@ -13,6 +13,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 05 | [Configuration Backup and Restore](./05-backup-delete-reinstall-ios-config/) | Back up, delete and restore a Cisco IOS configuration using TFTP |
 | 06 | [Static Routing](./06-static-routing/) | Configure manually defined routes between remote networks |
 | 07 | [Floating Static Routing](./07-floating-static-routing/) | Configure a backup route using a higher administrative distance |
+| 08 | [Default Static Routing](./08-default-static-routing/) | Forward unknown destinations through a gateway of last resort |
 
 ## Skills Practiced
 
@@ -25,6 +26,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Local user authentication
 - Configuration backup and recovery using TFTP
 - Static routing and next-hop selection
+- Default routes and the gateway of last resort
 - Administrative distance
 - Route redundancy and failover
 - Network connectivity testing
@@ -41,7 +43,6 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 
 This repository will be updated as I complete additional CCNA labs, including:
 
-- Default routing
 - RIP and OSPF
 - VLANs and trunking
 - Inter-VLAN routing
