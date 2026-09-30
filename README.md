@@ -15,6 +15,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 07 | [Floating Static Routing](./07-floating-static-routing/) | Configure a backup route using a higher administrative distance |
 | 08 | [Default Static Routing](./08-default-static-routing/) | Forward unknown destinations through a gateway of last resort |
 | 09 | [RIP Dynamic Routing](./09-rip-dynamic-routing/) | Configure RIP, advertise connected networks and verify dynamically learned routes |
+| 10 | [EIGRP Dynamic Routing](./10-eigrp-dynamic-routing/) | Configure EIGRP, advertise networks and verify neighbors and dynamically learned routes |
 
 ## Skills Practiced
 
@@ -32,7 +33,11 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Route redundancy and failover
 - Dynamic routing using RIP
 - RIPv2 configuration
+- Dynamic routing using EIGRP
+- EIGRP autonomous system configuration
+- EIGRP neighbor and topology verification
 - Network advertisement
+- Wildcard mask configuration
 - Dynamic route learning
 - Routing table verification
 - Network connectivity testing
