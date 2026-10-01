@@ -16,6 +16,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 08 | [Default Static Routing](./08-default-static-routing/) | Forward unknown destinations through a gateway of last resort |
 | 09 | [RIP Dynamic Routing](./09-rip-dynamic-routing/) | Configure RIP, advertise connected networks and verify dynamically learned routes |
 | 10 | [EIGRP Dynamic Routing](./10-eigrp-dynamic-routing/) | Configure EIGRP, advertise networks and verify neighbors and dynamically learned routes |
+| 11 | [OSPF Dynamic Routing](./11-ospf-dynamic-routing/) | Configure OSPF, advertise networks and verify neighbor relationships and learned routes |
 
 ## Skills Practiced
 
@@ -36,6 +37,10 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Dynamic routing using EIGRP
 - EIGRP autonomous system configuration
 - EIGRP neighbor and topology verification
+- Dynamic routing using OSPF
+- OSPF process ID and router ID configuration
+- OSPF area configuration
+- OSPF neighbor relationship verification
 - Network advertisement
 - Wildcard mask configuration
 - Dynamic route learning
@@ -54,9 +59,10 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 
 This repository will be updated as I complete additional CCNA labs, including:
 
-- OSPF
 - VLANs and trunking
 - Inter-VLAN routing
+- EtherChannel
+- Spanning Tree Protocol
 - Access control lists
 - Network address translation
 
