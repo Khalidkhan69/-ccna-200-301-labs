@@ -17,6 +17,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 09 | [RIP Dynamic Routing](./09-rip-dynamic-routing/) | Configure RIP, advertise connected networks and verify dynamically learned routes |
 | 10 | [EIGRP Dynamic Routing](./10-eigrp-dynamic-routing/) | Configure EIGRP, advertise networks and verify neighbors and dynamically learned routes |
 | 11 | [OSPF Dynamic Routing](./11-ospf-dynamic-routing/) | Configure OSPF, advertise networks and verify neighbor relationships and learned routes |
+| 12 | [Route Redistribution](./12-route-redistribution/) | Redistribute routes between OSPF and EIGRP and verify external routing information |
 
 ## Skills Practiced
 
@@ -41,6 +42,9 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - OSPF process ID and router ID configuration
 - OSPF area configuration
 - OSPF neighbor relationship verification
+- Route redistribution between OSPF and EIGRP
+- EIGRP seed metric configuration
+- External route verification
 - Network advertisement
 - Wildcard mask configuration
 - Dynamic route learning
