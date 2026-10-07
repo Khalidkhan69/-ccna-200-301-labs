@@ -18,8 +18,10 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 10 | [EIGRP Dynamic Routing](./10-eigrp-dynamic-routing/) | Configure EIGRP, advertise networks and verify neighbors and dynamically learned routes |
 | 11 | [OSPF Dynamic Routing](./11-ospf-dynamic-routing/) | Configure OSPF, advertise networks and verify neighbor relationships and learned routes |
 | 12 | [Route Redistribution](./12-route-redistribution/) | Redistribute routes between OSPF and EIGRP and verify external routing information |
-| 13 | [Numbered Standard ACL](./13-numbered-standard-acl/) | Filter IPv4 traffic using numbered standard access control lists and source addresses |
+| 13 | [Numbered Standard ACL](./13-numbered-standard-acl/) | Filter IPv4 traffic using numbered standard ACLs and source addresses |
 | 14 | [Numbered Extended ACL](./14-numbered-extended-acl/) | Filter traffic using protocols, source and destination addresses and port numbers |
+| 15 | [Named Standard ACL](./15-named-standard-acl/) | Filter IPv4 traffic by source address using a descriptive ACL name |
+| 16 | [Named Extended ACL](./16-named-extended-acl/) | Filter traffic by protocol, addresses and port numbers using a descriptive ACL name |
 
 ## Skills Practiced
 
@@ -48,7 +50,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - EIGRP seed metric configuration
 - External route verification
 - Standard and extended IPv4 access control lists
-- Numbered ACL configuration
+- Numbered and named ACL configuration
 - Source and destination address filtering
 - Protocol and port-number filtering
 - Inbound and outbound ACL application
@@ -71,12 +73,12 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 
 This repository will be updated as I complete additional CCNA labs, including:
 
-- Named access control lists
 - VLANs and trunking
 - Inter-VLAN routing
-- EtherChannel
+- VLAN Trunking Protocol
 - Spanning Tree Protocol
-- Network address translation
+- EtherChannel
+- Network Address Translation
 
 ## Author
 
