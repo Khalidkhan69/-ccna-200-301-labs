@@ -22,6 +22,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 14 | [Numbered Extended ACL](./14-numbered-extended-acl/) | Filter traffic using protocols, source and destination addresses and port numbers |
 | 15 | [Named Standard ACL](./15-named-standard-acl/) | Filter IPv4 traffic by source address using a descriptive ACL name |
 | 16 | [Named Extended ACL](./16-named-extended-acl/) | Filter traffic by protocol, addresses and port numbers using a descriptive ACL name |
+| 17 | [VLAN Access Ports and Trunking](./17-vlan-access-ports-and-trunking/) | Create VLANs, assign access ports and configure an IEEE 802.1Q trunk between switches |
 
 ## Skills Practiced
 
@@ -55,6 +56,11 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Protocol and port-number filtering
 - Inbound and outbound ACL application
 - ACL placement and implicit deny
+- VLAN creation and naming
+- Access-port configuration
+- Trunk-link configuration
+- IEEE 802.1Q VLAN tagging
+- VLAN traffic across multiple switches
 - Network advertisement
 - Wildcard mask configuration
 - Dynamic route learning
@@ -73,12 +79,12 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 
 This repository will be updated as I complete additional CCNA labs, including:
 
-- VLANs and trunking
 - Inter-VLAN routing
 - VLAN Trunking Protocol
 - Spanning Tree Protocol
 - EtherChannel
 - Network Address Translation
+- IPv6 addressing and routing
 
 ## Author
 
