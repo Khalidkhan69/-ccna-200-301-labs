@@ -23,6 +23,8 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 15 | [Named Standard ACL](./15-named-standard-acl/) | Filter IPv4 traffic by source address using a descriptive ACL name |
 | 16 | [Named Extended ACL](./16-named-extended-acl/) | Filter traffic by protocol, addresses and port numbers using a descriptive ACL name |
 | 17 | [VLAN Access Ports and Trunking](./17-vlan-access-ports-and-trunking/) | Create VLANs, assign access ports and configure an IEEE 802.1Q trunk between switches |
+| 18 | [Inter-VLAN Routing Using Multilayer Switch](<./18-inter-vlan-routing(mls)/>) | Configure VLAN interfaces (SVIs) and enable Layer 3 routing on a multilayer switch |
+| 19 | [Inter-VLAN Routing Using Router](<./19-inter-vlan-routing(router)/>) | Configure router subinterfaces and IEEE 802.1Q encapsulation for inter-VLAN routing |
 
 ## Skills Practiced
 
@@ -61,6 +63,11 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Trunk-link configuration
 - IEEE 802.1Q VLAN tagging
 - VLAN traffic across multiple switches
+- Inter-VLAN routing using a multilayer switch
+- Switch virtual interfaces (SVIs)
+- Layer 3 switching
+- Router-on-a-stick configuration
+- Router subinterfaces
 - Network advertisement
 - Wildcard mask configuration
 - Dynamic route learning
@@ -79,15 +86,14 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 
 This repository will be updated as I complete additional CCNA labs, including:
 
-- Inter-VLAN routing
-- VLAN Trunking Protocol
-- Spanning Tree Protocol
+- VLAN Trunking Protocol (VTP)
+- Spanning Tree Protocol (STP)
 - EtherChannel
-- Network Address Translation
+- Network Address Translation (NAT)
 - IPv6 addressing and routing
 
 ## Author
 
 **Khalid Ikram**
 
-Aspiring network and cybersecurity professional.
+Aspiring network and cybersecurity professional
