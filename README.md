@@ -14,25 +14,26 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 06 | [Static Routing](./06-static-routing/) | Configure manually defined routes between remote networks |
 | 07 | [Floating Static Routing](./07-floating-static-routing/) | Configure a backup route using a higher administrative distance |
 | 08 | [Default Static Routing](./08-default-static-routing/) | Forward unknown destinations through a gateway of last resort |
-| 09 | [RIP Dynamic Routing](./09-rip-dynamic-routing/) | Configure RIP, advertise connected networks, and verify dynamically learned routes |
-| 10 | [EIGRP Dynamic Routing](./10-eigrp-dynamic-routing/) | Configure EIGRP, advertise networks, and verify neighbors and dynamically learned routes |
-| 11 | [OSPF Dynamic Routing](./11-ospf-dynamic-routing/) | Configure OSPF, advertise networks, and verify neighbor relationships and learned routes |
-| 12 | [Route Redistribution](./12-route-redistribution/) | Redistribute routes between OSPF and EIGRP and verify external routing information |
-| 13 | [Numbered Standard ACL](./13-numbered-standard-acl/) | Filter IPv4 traffic using numbered standard ACLs and source addresses |
-| 14 | [Numbered Extended ACL](./14-numbered-extended-acl/) | Filter traffic using protocols, source and destination addresses, and port numbers |
-| 15 | [Named Standard ACL](./15-named-standard-acl/) | Filter IPv4 traffic by source address using a descriptive ACL name |
-| 16 | [Named Extended ACL](./16-named-extended-acl/) | Filter traffic by protocol, addresses, and port numbers using a descriptive ACL name |
-| 17 | [VLAN Access Ports and Trunking](./17-vlan-access-ports-and-trunking/) | Create VLANs, assign access ports, and configure an IEEE 802.1Q trunk between switches |
+| 09 | [RIP Dynamic Routing](./09-rip-routing(dynamic)/) | Configure RIP, advertise connected networks, and verify dynamically learned routes |
+| 10 | [EIGRP Dynamic Routing](./10-eigrp-routing(dynamic)/) | Configure EIGRP, advertise networks, and verify neighbors and dynamically learned routes |
+| 11 | [OSPF Dynamic Routing](./11-ospf-routing(dynamic)/) | Configure OSPF, advertise networks, and verify neighbor relationships and learned routes |
+| 12 | [Route Redistribution](./12-redistribution/) | Redistribute routes between OSPF and EIGRP and verify external routing information |
+| 13 | [Numbered Standard ACL](./13-standard-acl(number)/) | Filter IPv4 traffic using numbered standard ACLs and source addresses |
+| 14 | [Numbered Extended ACL](./14-extended-acl(number)/) | Filter traffic using protocols, source and destination addresses, and port numbers |
+| 15 | [Named Standard ACL](./15-standard-acl(name)/) | Filter IPv4 traffic by source address using a descriptive ACL name |
+| 16 | [Named Extended ACL](./16-extended-acl(name)/) | Filter traffic by protocol, addresses, and port numbers using a descriptive ACL name |
+| 17 | [VLAN Access Ports and Trunking](./17-vlan(access-port+trunk-link)/) | Create VLANs, assign access ports, and configure IEEE 802.1Q trunk links between switches |
 | 18 | [Inter-VLAN Routing Using Multilayer Switch](./18-inter-vlan-routing(mls)/) | Configure VLAN interfaces (SVIs) and enable Layer 3 routing on a multilayer switch |
 | 19 | [Inter-VLAN Routing Using Router](./19-inter-vlan-routing(router)/) | Configure router subinterfaces and IEEE 802.1Q encapsulation for inter-VLAN routing |
-| 20 | [VTP Configuration](./20-vtp-configuration/) | Configure VLAN Trunking Protocol (VTP), understand VTP modes and domains, and verify VLAN information across switches |
+| 20 | [VTP Configuration](./20-vtp/) | Configure VLAN Trunking Protocol (VTP), understand VTP modes and domains, and verify VLAN information across switches |
+| 21 | [Per-VLAN Spanning Tree](./21-per-vlan-spanning-tree/) | Explore PVST+, root bridge election, spanning-tree port roles, and Layer 2 loop prevention |
 
 ## Skills Practiced
 
 - Cisco IOS command-line interface
 - IPv4 addressing and subnet masks
 - Router and interface configuration
-- DHCP configuration
+- DHCP configuration and address assignment
 - VTY line configuration
 - Telnet and SSH remote access
 - Local user authentication
@@ -41,15 +42,13 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Default routes and the gateway of last resort
 - Administrative distance
 - Route redundancy and failover
-- Dynamic routing using RIP
-- RIPv2 configuration
+- Dynamic routing using RIP and RIPv2
 - Dynamic routing using EIGRP
 - EIGRP autonomous system configuration
 - EIGRP neighbor and topology verification
 - Dynamic routing using OSPF
 - OSPF process ID and router ID configuration
-- OSPF area configuration
-- OSPF neighbor relationship verification
+- OSPF area configuration and neighbor verification
 - Route redistribution between OSPF and EIGRP
 - EIGRP seed metric configuration
 - External route verification
@@ -60,8 +59,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Inbound and outbound ACL application
 - ACL placement and implicit deny
 - VLAN creation and naming
-- Access-port configuration
-- Trunk-link configuration
+- Access-port and trunk-link configuration
 - IEEE 802.1Q VLAN tagging
 - VLAN traffic across multiple switches
 - Inter-VLAN routing using a multilayer switch
@@ -69,17 +67,19 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Layer 3 switching
 - Router-on-a-stick configuration
 - Router subinterfaces
-- Network advertisement
-- Wildcard mask configuration
-- Dynamic route learning
-- Routing table verification
+- Network advertisement and wildcard mask configuration
+- Dynamic route learning and routing table verification
 - Network connectivity testing
 - Configuration verification and troubleshooting
 - VLAN Trunking Protocol (VTP)
 - VTP domains and operating modes
 - VTP server, client, and transparent modes
-- VTP advertisement and VLAN information management
-- Trunk links for inter-switch communication
+- VTP advertisements and VLAN information management
+- Spanning Tree Protocol (STP)
+- Per-VLAN Spanning Tree Plus (PVST+)
+- Root bridge election and spanning-tree port roles
+- Layer 2 loop prevention
+- Spanning-tree verification and troubleshooting
 
 ## Tools
 
@@ -90,12 +90,13 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 
 ## Progress
 
-This repository will be updated as I complete additional CCNA labs, including:
+This repository will continue to grow as I complete additional CCNA labs, including:
 
-- Spanning Tree Protocol (STP)
 - EtherChannel
 - Network Address Translation (NAT)
 - IPv6 addressing and routing
+- IPsec VPNs and GRE tunnels
+- Port security
 - Additional switching, routing, and network security labs
 
 ## Author
@@ -103,4 +104,3 @@ This repository will be updated as I complete additional CCNA labs, including:
 **Khalid Ikram**
 
 Aspiring network and cybersecurity professional
-
