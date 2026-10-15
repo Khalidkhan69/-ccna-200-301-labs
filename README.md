@@ -27,6 +27,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 19 | [Inter-VLAN Routing Using Router](./19-inter-vlan-routing(router)/) | Configure router subinterfaces and IEEE 802.1Q encapsulation for inter-VLAN routing |
 | 20 | [VTP Configuration](./20-vtp/) | Configure VLAN Trunking Protocol (VTP), understand VTP modes and domains, and verify VLAN information across switches |
 | 21 | [Per-VLAN Spanning Tree](./21-per-vlan-spanning-tree/) | Explore PVST+, root bridge election, spanning-tree port roles, and Layer 2 loop prevention |
+| 22 | [Port Security (Access Port)](./22-port-security/) | Configure switch port security, restrict MAC addresses, and verify security settings and violation handling |
 
 ## Skills Practiced
 
@@ -80,6 +81,11 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Root bridge election and spanning-tree port roles
 - Layer 2 loop prevention
 - Spanning-tree verification and troubleshooting
+- Switch port security configuration
+- Secure MAC address learning and restrictions
+- Port security violation modes
+- Port security status and MAC address verification
+- Access-port security and unauthorized device prevention
 
 ## Tools
 
@@ -96,8 +102,7 @@ This repository will continue to grow as I complete additional CCNA labs, includ
 - Network Address Translation (NAT)
 - IPv6 addressing and routing
 - IPsec VPNs and GRE tunnels
-- Port security
-- Additional switching, routing, and network security labs
+- Additional switching and network security labs
 
 ## Author
 
