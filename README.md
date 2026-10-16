@@ -1,6 +1,6 @@
 # CCNA 200-301 Packet Tracer Labs
 
-This repository documents my practical learning journey for the Cisco CCNA 200-301 certification. It contains Cisco Packet Tracer labs, configuration examples, and verification commands covering networking fundamentals.
+This repository documents my practical learning journey for the Cisco CCNA 200-301 certification. It contains Cisco Packet Tracer labs, configuration examples, and verification commands covering networking fundamentals, routing, switching, and network security.
 
 ## Labs
 
@@ -28,20 +28,30 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 20 | [VTP Configuration](./20-vtp/) | Configure VLAN Trunking Protocol (VTP), understand VTP modes and domains, and verify VLAN information across switches |
 | 21 | [Per-VLAN Spanning Tree](./21-per-vlan-spanning-tree/) | Explore PVST+, root bridge election, spanning-tree port roles, and Layer 2 loop prevention |
 | 22 | [Port Security (Access Port)](./22-port-security/) | Configure switch port security, restrict MAC addresses, and verify security settings and violation handling |
+| 23 | [IPv6 Static and Default Routing](./23-ipv6-static+default-routing/) | Configure IPv6 static and default routes, verify routing table entries, and test IPv6 connectivity |
 
 ## Skills Practiced
 
+### Networking Fundamentals
 - Cisco IOS command-line interface
 - IPv4 addressing and subnet masks
+- IPv6 addressing and interface configuration
 - Router and interface configuration
+- Network connectivity testing
+- Configuration verification and troubleshooting
+
+### IP Services and Remote Access
 - DHCP configuration and address assignment
+- DHCP exclusions and address pools
 - VTY line configuration
 - Telnet and SSH remote access
 - Local user authentication
 - Configuration backup and recovery using TFTP
+
+### Static and Dynamic Routing
 - Static routing and next-hop selection
 - Default routes and the gateway of last resort
-- Administrative distance
+- Floating static routes and administrative distance
 - Route redundancy and failover
 - Dynamic routing using RIP and RIPv2
 - Dynamic routing using EIGRP
@@ -53,12 +63,25 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Route redistribution between OSPF and EIGRP
 - EIGRP seed metric configuration
 - External route verification
+- IPv6 static route configuration
+- IPv6 default route configuration
+- IPv6 routing table verification
+- IPv6 connectivity testing and troubleshooting
+
+### Access Control and Network Security
 - Standard and extended IPv4 access control lists
 - Numbered and named ACL configuration
 - Source and destination address filtering
 - Protocol and port-number filtering
 - Inbound and outbound ACL application
 - ACL placement and implicit deny
+- Switch port security configuration
+- Secure MAC address learning and restrictions
+- Port security violation modes
+- Port security status and MAC address verification
+- Access-port security and unauthorized device prevention
+
+### Switching and VLANs
 - VLAN creation and naming
 - Access-port and trunk-link configuration
 - IEEE 802.1Q VLAN tagging
@@ -69,9 +92,6 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Router-on-a-stick configuration
 - Router subinterfaces
 - Network advertisement and wildcard mask configuration
-- Dynamic route learning and routing table verification
-- Network connectivity testing
-- Configuration verification and troubleshooting
 - VLAN Trunking Protocol (VTP)
 - VTP domains and operating modes
 - VTP server, client, and transparent modes
@@ -81,11 +101,6 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Root bridge election and spanning-tree port roles
 - Layer 2 loop prevention
 - Spanning-tree verification and troubleshooting
-- Switch port security configuration
-- Secure MAC address learning and restrictions
-- Port security violation modes
-- Port security status and MAC address verification
-- Access-port security and unauthorized device prevention
 
 ## Tools
 
@@ -100,9 +115,8 @@ This repository will continue to grow as I complete additional CCNA labs, includ
 
 - EtherChannel
 - Network Address Translation (NAT)
-- IPv6 addressing and routing
 - IPsec VPNs and GRE tunnels
-- Additional switching and network security labs
+- Additional switching, routing, IPv6, and network security labs
 
 ## Author
 
