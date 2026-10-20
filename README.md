@@ -29,6 +29,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 21 | [Per-VLAN Spanning Tree](./21-per-vlan-spanning-tree/) | Explore PVST+, root bridge election, spanning-tree port roles, and Layer 2 loop prevention |
 | 22 | [Port Security (Access Port)](./22-port-security/) | Configure switch port security, restrict MAC addresses, and verify security settings and violation handling |
 | 23 | [IPv6 Static and Default Routing](./23-ipv6-static+default-routing/) | Configure IPv6 static and default routes, verify routing table entries, and test IPv6 connectivity |
+| 24 | [IPv6 RIP, EIGRP, and OSPF Routing](./24-ipv6-rip+eigrp+ospf-routing/) | Configure and verify IPv6 dynamic routing using RIPng, EIGRP for IPv6, and OSPFv3 |
 
 ## Skills Practiced
 
@@ -67,6 +68,12 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - IPv6 default route configuration
 - IPv6 routing table verification
 - IPv6 connectivity testing and troubleshooting
+- IPv6 dynamic routing
+- RIPng configuration and verification
+- EIGRP for IPv6 configuration and neighbor verification
+- OSPFv3 configuration and neighbor verification
+- IPv6 dynamic route learning and routing table analysis
+- IPv6 routing troubleshooting
 
 ### Access Control and Network Security
 - Standard and extended IPv4 access control lists
