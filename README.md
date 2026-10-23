@@ -30,10 +30,12 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 | 22 | [Port Security (Access Port)](./22-port-security/) | Configure switch port security, restrict MAC addresses, and verify security settings and violation handling |
 | 23 | [IPv6 Static and Default Routing](./23-ipv6-static+default-routing/) | Configure IPv6 static and default routes, verify routing table entries, and test IPv6 connectivity |
 | 24 | [IPv6 RIP, EIGRP, and OSPF Routing](./24-ipv6-rip+eigrp+ospf-routing/) | Configure and verify IPv6 dynamic routing using RIPng, EIGRP for IPv6, and OSPFv3 |
+| 25 | [Cisco Firewall (ASA 5506-X)](./25-cisco-firewall-(asa%205506x)/) | Explore Cisco ASA firewall fundamentals, interface security, traffic filtering, and access control where supported by the lab |
 
 ## Skills Practiced
 
 ### Networking Fundamentals
+
 - Cisco IOS command-line interface
 - IPv4 addressing and subnet masks
 - IPv6 addressing and interface configuration
@@ -42,6 +44,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Configuration verification and troubleshooting
 
 ### IP Services and Remote Access
+
 - DHCP configuration and address assignment
 - DHCP exclusions and address pools
 - VTY line configuration
@@ -50,6 +53,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Configuration backup and recovery using TFTP
 
 ### Static and Dynamic Routing
+
 - Static routing and next-hop selection
 - Default routes and the gateway of last resort
 - Floating static routes and administrative distance
@@ -76,6 +80,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - IPv6 routing troubleshooting
 
 ### Access Control and Network Security
+
 - Standard and extended IPv4 access control lists
 - Numbered and named ACL configuration
 - Source and destination address filtering
@@ -87,8 +92,14 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Port security violation modes
 - Port security status and MAC address verification
 - Access-port security and unauthorized device prevention
+- Cisco ASA firewall fundamentals
+- Firewall interfaces and security levels
+- Firewall traffic filtering and access control
+- Firewall ACL concepts and verification
+- Network security troubleshooting
 
 ### Switching and VLANs
+
 - VLAN creation and naming
 - Access-port and trunk-link configuration
 - IEEE 802.1Q VLAN tagging
@@ -115,6 +126,7 @@ This repository documents my practical learning journey for the Cisco CCNA 200-3
 - Cisco IOS CLI
 - Git and GitHub
 - TFTP server
+- Cisco ASA firewall simulator, where supported
 
 ## Progress
 
